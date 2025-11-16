@@ -1,0 +1,47 @@
+Có 4 nhãn chính: Person, Organization, Location và Miscellaneous.
+
+a. PER (người)
+    Gắn nhãn cho tên đầy đủ hoặc tên riêng.
+    Bao gồm: họ, tên đệm, tên chính (có thể chỉ tên riêng nếu văn cảnh rõ ràng).
+    Không gắn nhãn với biệt danh chung, trừ khi nó là tên gọi đặc trưng:
+
+✅ "Nguyễn Văn A" → PER
+✅ "Messi" → PER
+❌ "cầu thủ số 10" → không gắn
+
+b. ORG (tổ chức)
+
+    Bao gồm công ty, cơ quan, đội bóng, câu lạc bộ, trường học.
+    Tên viết tắt hoặc đầy đủ đều gắn:
+✅ "VFF", "Hà Nội FC", "Báo Vietnamnet" → ORG
+❌ "câu lạc bộ bóng đá" → không gắn
+
+c. LOC (địa điểm)
+
+    Gắn nhãn thành phố, tỉnh, quốc gia, sân vận động, khu vực.
+    Không gắn nhãn cho từ chung chỉ vùng đất trừ khi là tên riêng:
+
+✅ "Hà Nội", "Campuchia", "Sân vận động Mỹ Đình" → LOC
+❌ "khu vực phía Bắc" → không gắn
+
+d. MISC (thực thể khác)
+    Bao gồm các sự kiện, giải đấu, giải thưởng, tên chương trình.
+    Gắn cho các danh từ riêng nhưng không thuộc PER / ORG / LOC:
+
+✅ "V-League 2025", "World Cup", "AFF Cup" → MISC
+❌ "giải đấu bóng đá" → không gắn
+
+
+
+Example
+
+Văn bản:
+"Diễn viên Khôi Nguyên chia sẻ với phóng viên VietNamNet sẽ tham gia vở Nguyệt hạ - tác phẩm dự thi Liên hoan quốc tế sân khấu thử nghiệm 2025 của Sân khấu kịch Hồng Vân - với vai Romeo."
+
+                   Từ                       |      Nhãn	
+Khôi Nguyên	                                |      PER	
+VietNamNet	                                |      ORG	
+Nguyệt hạ	                                |      MISC	
+Liên hoan quốc tế sân khấu thử nghiệm 2025	|      MISC	
+Sân khấu kịch Hồng Vân	                    |      ORG	  
+Romeo	                                    |      PER	
