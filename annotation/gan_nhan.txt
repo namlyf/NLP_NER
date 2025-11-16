@@ -1,4 +1,4 @@
-Có 4 nhãn chính: Person, Organization, Location và Miscellaneous.
+Có 5 nhãn chính: Person, Organization, Location, Miscellaneous, và Date
 
 a. PER (người)
     Gắn nhãn cho tên đầy đủ hoặc tên riêng.
@@ -31,8 +31,10 @@ d. MISC (thực thể khác)
 ✅ "V-League 2025", "World Cup", "AFF Cup" → MISC
 ❌ "giải đấu bóng đá" → không gắn
 
+e. DATE
+    Gắn nhãn cho tất cả các ngày, tháng, năm, khoảng thời gian cụ thể:
 
-
+Ví dụ: "tháng 4/2024", "04/11/2025", "năm 2023", "chiều 2/11" → DATE ✅
 Example
 
 Văn bản:
